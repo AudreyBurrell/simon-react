@@ -1,5 +1,5 @@
-export function delay(milliseconds) {
+export function delay(seconds) { //used to be miliseconds
   return new Promise((resolve) => {
-    setTimeout(resolve, milliseconds);
+    setTimeout(resolve, seconds);
   });
 }
